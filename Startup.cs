@@ -1,4 +1,5 @@
-﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+﻿using System;
+using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 
 [assembly: FunctionsStartup(typeof(GithubActionsStudy.Startup))]
 
@@ -8,7 +9,7 @@ namespace GithubActionsStudy
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-           
+            Console.WriteLine("Azure dev deploy test");
         }
     }
 }
