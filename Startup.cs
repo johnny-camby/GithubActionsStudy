@@ -9,7 +9,7 @@ namespace GithubActionsStudy
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            Console.WriteLine("Azure dev deploy test");
+            Console.WriteLine("Azure dev deploy test ");
         }
     }
 }
