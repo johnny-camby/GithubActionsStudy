@@ -4,8 +4,9 @@
 name: .NET
 
 on:
-  push:
-    branches: [ "master" ]
+  # commented to stop the trigger that pushes to the master branch automatically
+  #push:
+  #  branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
