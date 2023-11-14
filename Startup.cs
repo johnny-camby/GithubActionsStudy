@@ -8,7 +8,7 @@ namespace GithubActionsStudy
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            throw new System.NotImplementedException();
+           
         }
     }
 }
